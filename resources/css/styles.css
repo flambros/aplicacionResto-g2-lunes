@@ -6,12 +6,27 @@
 }
 
 header{
-    height: 340px;
+    position: relative;
+    height: var(--alturaHeader);
     background-color: blue;
 }
 
+.textoBienvenida{
+    position: absolute;
+    bottom: 50px;
+    left: 5%;
+}
+.buscador{
+    position: absolute;
+    bottom: -30px;
+    right: 10%;
+    height: 60px;
+    width: 80%;
+    background-color: rgb(208, 214, 121);
+}
+
 main{
-    min-height: calc(100dvh - 340px - var(--alturaHeader));
+    min-height: calc(100dvh - var(--alturaHeader));
     background-color: brown;
     /* background-color: var(--color-primario); */
 }

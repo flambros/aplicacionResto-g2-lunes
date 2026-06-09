@@ -14,17 +14,38 @@ header{
 .textoBienvenida{
     position: absolute;
     bottom: 50px;
+    width: 90%;
     left: 5%;
 }
 .buscador{
     position: absolute;
     bottom: -30px;
-    right: 10%;
+    left: 10%;
     height: 60px;
     width: 80%;
     background-color: rgb(208, 214, 121);
-}
+    
+.buscador input[type="text"]{
 
+
+
+    i{
+        height: 60px;
+        width: 60px;
+        display: grid;
+        place-items: center;
+        background-color: aliceblue;
+    }
+
+        button{
+        height: 60px;
+        width: 60px;
+        display: grid;
+        place-items: center;
+        background-color: aliceblue;
+    }
+   } 
+}
 main{
     min-height: calc(100dvh - var(--alturaHeader));
     background-color: brown;
